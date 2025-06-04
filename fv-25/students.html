@@ -30,10 +30,24 @@
         }
     </style>
 </head>
-<body class="min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+<body class="min-h-screen flex flex-col items-center">
+
+    <!-- Closable Banner -->
+    <div id="topBanner" class="w-full bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 text-center relative shadow-md">
+        <p class="text-lg sm:text-xl font-semibold">
+            <a href="https://codeezy.net" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                Discover more about Codeezy and our programs at codeezy.net!
+            </a>
+        </p>
+        <button id="closeBanner" class="absolute top-2 right-2 p-2 rounded-full hover:bg-blue-700 transition-colors duration-200">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button>
+    </div>
 
     <!-- Header Section -->
-    <header class="w-full max-w-4xl text-center mb-12">
+    <header class="w-4/5 text-center my-12 px-4 sm:px-6 lg:px-8">
         <h1 class="text-5xl sm:text-6xl font-extrabold text-blue-700 mb-4 tracking-tight">
             Our Amazing Creations!
         </h1>
@@ -44,7 +58,7 @@
     </header>
 
     <!-- Main Showcase Grid -->
-    <main class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <main class="w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12 px-4 sm:px-6 lg:px-8">
 
         <!-- Student Project Card 1 -->
         <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-blue-200">
@@ -52,7 +66,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Sarah L.</h2>
                 <p class="text-gray-600 text-sm mb-4">A fun interactive game built with JavaScript!</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -63,6 +77,10 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/MWveWqg" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
@@ -72,7 +90,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Alex T.</h2>
                 <p class="text-gray-600 text-sm mb-4">Responsive landing page design using CSS.</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -83,6 +101,10 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/yLzYyLa" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
@@ -92,7 +114,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Emily C.</h2>
                 <p class="text-gray-600 text-sm mb-4">Interactive data visualization with D3.js.</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -103,6 +125,10 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/RzGZzG" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
@@ -112,7 +138,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by David K.</h2>
                 <p class="text-gray-600 text-sm mb-4">A simple calculator app with a sleek UI.</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -123,6 +149,10 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/wgGVVX" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
@@ -132,7 +162,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Mia P.</h2>
                 <p class="text-gray-600 text-sm mb-4">Creative CSS animation experiment.</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -143,6 +173,10 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/NWWxWqG" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
@@ -152,7 +186,7 @@
                 <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Noah R.</h2>
                 <p class="text-gray-600 text-sm mb-4">Basic to-do list application.</p>
                 <!-- CodePen Embed Container -->
-                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
                     <iframe
                         height="100%"
                         width="100%"
@@ -163,15 +197,25 @@
                         class="w-full h-full"
                     ></iframe>
                 </div>
+                <a href="https://codepen.io/freeCodeCamp/pen/ExxZzG" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
             </div>
         </div>
 
     </main>
 
     <!-- Footer Section -->
-    <footer class="w-full max-w-4xl text-center mt-12 text-gray-500 text-sm">
+    <footer class="w-4/5 text-center mt-12 text-gray-500 text-sm px-4 sm:px-6 lg:px-8">
         <p>&copy; 2025 Codeezy. All rights reserved. Showcasing the future of coding!</p>
     </footer>
+
+    <script>
+        document.getElementById('closeBanner').addEventListener('click', function() {
+            document.getElementById('topBanner').style.display = 'none';
+        });
+    </script>
 
 </body>
 </html>
