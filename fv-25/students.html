@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeezy Student Showcase</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray-blue background */
+            color: #334155; /* Darker text for contrast */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #60a5fa; /* Blue accent */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+
+    <!-- Header Section -->
+    <header class="w-full max-w-4xl text-center mb-12">
+        <h1 class="text-5xl sm:text-6xl font-extrabold text-blue-700 mb-4 tracking-tight">
+            Our Amazing Creations!
+        </h1>
+        <p class="text-xl sm:text-2xl text-gray-600 leading-relaxed">
+            Witness the incredible projects built by our talented Codeezy students.
+            Each project is a testament to their hard work, creativity, and coding skills!
+        </p>
+    </header>
+
+    <!-- Main Showcase Grid -->
+    <main class="w-full max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Student Project Card 1 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-blue-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Sarah L.</h2>
+                <p class="text-gray-600 text-sm mb-4">A fun interactive game built with JavaScript!</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/MWveWqg?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Project Card 2 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-green-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Alex T.</h2>
+                <p class="text-gray-600 text-sm mb-4">Responsive landing page design using CSS.</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/yLzYyLa?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Project Card 3 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-purple-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Emily C.</h2>
+                <p class="text-gray-600 text-sm mb-4">Interactive data visualization with D3.js.</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/RzGZzG?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Project Card 4 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-orange-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by David K.</h2>
+                <p class="text-gray-600 text-sm mb-4">A simple calculator app with a sleek UI.</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/wgGVVX?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Project Card 5 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-teal-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Mia P.</h2>
+                <p class="text-gray-600 text-sm mb-4">Creative CSS animation experiment.</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/NWWxWqG?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Student Project Card 6 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-red-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Project by Noah R.</h2>
+                <p class="text-gray-600 text-sm mb-4">Basic to-do list application.</p>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/freeCodeCamp/embed/ExxZzG?default-tab=html%2Cresult"
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="w-full max-w-4xl text-center mt-12 text-gray-500 text-sm">
+        <p>&copy; 2025 Codeezy. All rights reserved. Showcasing the future of coding!</p>
+    </footer>
+
+</body>
+</html>
