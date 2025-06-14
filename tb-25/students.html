@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codeezy Student Showcase</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Light gray-blue background */
+            color: #334155; /* Darker text for contrast */
+        }
+
+
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #e2e8f0;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #60a5fa; /* Blue accent */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3b82f6; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center">
+
+    <!-- Closable Banner -->
+    <div id="topBanner" class="w-full bg-gradient-to-r from-blue-600 to-blue-800 text-white p-4 text-center relative shadow-md">
+        <p class="text-lg sm:text-xl font-semibold">
+            <a href="https://codeezy.net" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                Click here to learn more about Codeezy and our programmes!
+            </a>
+        </p>
+<!--         <button id="closeBanner" class="absolute top-2 right-2 p-2 rounded-full hover:bg-blue-700 transition-colors duration-200">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </button> -->
+    </div>
+
+    <!-- Header Section -->
+    <header class="w-4/5 text-center my-12 px-4 sm:px-6 lg:px-8">
+        <h1 class="text-5xl sm:text-6xl font-extrabold text-blue-700 mb-4 tracking-tight">
+            June 2025 Holiday Coding Workshop!
+        </h1>
+        <p class="text-xl sm:text-2xl text-gray-600 leading-relaxed">
+            Witness the incredible projects built by our talented Codeezy students.
+            Each project is a testament to their hard work, creativity, and coding skills!
+        </p>
+    </header>
+
+    <!-- Main Showcase Grid -->
+    <main class="w-4/5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-12 px-4 sm:px-6 lg:px-8">
+
+        <!-- Student Project Card 1 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-blue-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Aryan Mishary</h2>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/aryanmishary/embed/KwpRdOY?default-tab="
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+                <a href="https://codepen.io/aryanmishary/pen/KwpRdOY" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
+            </div>
+        </div>
+
+        <!-- Student Project Card 2 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-green-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Caleb, Connor, Finn</h2>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/Codeezy-the-styleful/embed/qEdYLxj?default-tab="
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+                <a href="https://codepen.io/Codeezy-the-styleful/pen/qEdYLxj" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
+            </div>
+        </div>
+
+        <!-- Student Project Card 4 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-orange-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Elsa Chua</h2>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/Codeezy-the-styleful/embed/qEdKmYy?default-tab="
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+                <a href="https://codepen.io/Codeezy-the-styleful/pen/qEdKmYy" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
+            </div>
+        </div>
+
+        <!-- Student Project Card 5 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-teal-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Wayne Chua</h2>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/waynechua/embed/qEdYOeq?default-tab="
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+                <a href="https://codepen.io/waynechua/pen/qEdYOeq" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
+            </div>
+        </div>
+
+        <!-- Student Project Card 7 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden border border-orange-200">
+            <div class="p-6">
+                <h2 class="text-2xl font-bold text-gray-800 mb-2">Ziyan, Ziyi</h2>
+                <!-- CodePen Embed Container -->
+                <div class="w-full aspect-video rounded-lg overflow-hidden border border-gray-300 mb-4">
+                    <iframe
+                        height="100%"
+                        width="100%"
+                        src="https://codepen.io/Codeezy-the-styleful/embed/dPoKWKw?default-tab="
+                        frameborder="0"
+                        loading="lazy"
+                        allowfullscreen
+                        class="w-full h-full"
+                    ></iframe>
+                </div>
+                <a href="https://codepen.io/Codeezy-the-styleful/pen/dPoKWKw" target="_blank" rel="noopener noreferrer"
+                   class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105">
+                    View on CodePen
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="w-4/5 text-center mt-12 text-gray-500 text-sm px-4 sm:px-6 lg:px-8">
+        <p>&copy; 2025 Codeezy. All rights reserved. Respective credit to authors of images used by our students. Start Easy, Build Big!</p>
+    </footer>
+
+    <script>
+        document.getElementById('closeBanner').addEventListener('click', function() {
+            document.getElementById('topBanner').style.display = 'none';
+        });
+    </script>
+
+</body>
+</html>
